@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "id": "c1",
+      "name": "CSPM Executive Dashboard",
+      "widgetIds": ["w1", "w2"]
+    },
+    {
+      "id": "c2",
+      "name": "Security Overview",
+      "widgetIds": ["w3"]
+    }
+  ],
+  "widgets": [
+    {
+      "id": "w1",
+
+      "name": "Widget 1",
+      "content": "Some random text for Widget 1"
+    },
+    {
+      "id": "w2",
+
+      "name": "Widget 2",
+      "content": "Some random text for Widget 2"
+    },
+    {
+      "id": "w3",
+
+      "name": "Widget 3",
+      "content": "Some random text for Widget 3"
+    }
+  ]
+}
