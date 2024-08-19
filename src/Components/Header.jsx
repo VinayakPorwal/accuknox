@@ -2,7 +2,6 @@ import { useState } from "react";
 import Modal from "./Modal";
 import { useDispatch } from "react-redux";
 import { addWidget } from "../features/widgetThunk";
-import { useId } from "react";
 /* eslint-disable react/prop-types */
 function Header({ setSearchTerm }) {
   const dispatch = useDispatch();
