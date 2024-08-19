@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import categoryReducer from "./Features/categorySlice";
-import widgetReducer from "./Features/widgetSlice";
+import categoryReducer from "./features/categorySlice";
+import widgetReducer from "./features/widgetSlice";
 
 export const store = configureStore({
   reducer: {
